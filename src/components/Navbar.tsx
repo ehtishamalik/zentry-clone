@@ -7,7 +7,7 @@ import { TiLocationArrow } from "react-icons/ti";
 import { useEffect, useRef, useState } from "react";
 import { useWindowScroll } from "react-use";
 
-const navItems = ["Nexus", "Valut", "Prologue", "About", "Contact"];
+const navItems = ["Home", "Nexus", "Vault", "About", "Contact"];
 
 const Navbar = () => {
   const navContainerRef = useRef<HTMLDivElement | null>(null);

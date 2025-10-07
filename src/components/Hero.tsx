@@ -83,7 +83,7 @@ const Hero = () => {
   });
 
   return (
-    <section className="relative h-dvh w-screen overflow-hidden">
+    <section id="home" className="relative h-dvh w-screen overflow-hidden">
       {isLoading && (
         <div className="absolute flex-center z-[100] h-dvh w-screen overflow-hidden bg-violet-50">
           <div className="three-body">
@@ -118,7 +118,7 @@ const Hero = () => {
             src={getVideoSrc(currentIndex)}
             loop
             muted
-            // autoPlay
+            autoPlay
             id="next-video"
             className="absolute-center invisible absolute z-20 size-64 object-cover object-center"
             onLoadedData={handleVideoLoad}
@@ -128,7 +128,7 @@ const Hero = () => {
             src={getVideoSrc(currentIndex)}
             loop
             muted
-            // autoPlay
+            autoPlay
             className="absolute left-0 top-0 size-full object-cover object-center"
             onLoadedData={handleVideoLoad}
           />

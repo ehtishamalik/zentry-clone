@@ -45,7 +45,7 @@ const AnimatedTitle = ({ title, containerClassName }: AnimatedTitleProps) => {
           {line.split(" ").map((word, i) => (
             <span
               key={i}
-              className="animated-word"
+              className="animated-word special-font"
               dangerouslySetInnerHTML={{ __html: word }}
             />
           ))}

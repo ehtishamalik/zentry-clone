@@ -24,7 +24,7 @@ const Button = ({
       )}
     >
       {leftIcon}
-      <span className="relative inline-flex overflow-hidden font-general text-xs">
+      <span className="relative inline-flex overflow-hidden font-general text-xs uppercase">
         {title}
       </span>
       {rightIcon}
