@@ -1,0 +1,36 @@
+@import url("https://fonts.cdnfonts.com/css/general-sans");
+
+:root {
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+@theme {
+  --font-zentry: 'zentry', sans-serif;
+  --font-circular-web: 'circular-web', sans-serif;
+  --font-general: 'general', sans-serif;
+  --font-robert-medium: 'robert-medium', sans-serif;
+  --font-robert-regular: 'robert-regular', sans-serif;
+
+  --color-blue-50: oklch(0.9087 0.023 285.93);
+  --color-blue-75: oklch(0.9093 0.0257 285.88);
+  --color-blue-100: oklch(0.9619 0.0109 274.89);
+  --color-blue-200: oklch(0.0672 0 0);
+  --color-blue-300: oklch(0.7337 0.1096 225.45);
+
+  --color-violet-300: oklch(0.5059 0.2841 279.7);
+
+  --color-yellow-100: oklch(0.6517 0.1242 114.72);
+  --color-yellow-300: oklch(0.9584 0.1753 115.45);
+}
+
+@import './styles.css';
+@import "tailwindcss";
