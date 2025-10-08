@@ -6,8 +6,9 @@ import { FaRegCirclePlay, FaRegCirclePause } from "react-icons/fa6";
 import { TiLocationArrow } from "react-icons/ti";
 import { useEffect, useRef, useState } from "react";
 import { useWindowScroll } from "react-use";
+import { openPortfolio } from "../utils";
 
-const navItems = ["Home", "Nexus", "Vault", "About", "Contact"];
+const navItems = ["Home", "Projects", "Showcase", "About", "Contact"];
 
 const Navbar = () => {
   const navContainerRef = useRef<HTMLDivElement | null>(null);
@@ -68,9 +69,10 @@ const Navbar = () => {
             <img src="/img/logo.png" alt="logo" className="w-10" />
             <Button
               id="product-button"
-              title="Products"
+              title="My Work"
               rightIcon={<TiLocationArrow />}
               containerClassName="bg-blue-50 md:flex hidden items-center justify-center gap-1"
+              onClick={openPortfolio}
             />
           </div>
 

@@ -29,17 +29,20 @@ const About = () => {
     <section id="about" className="min-h-screen w-screen">
       <div className="relative mb-8 mt-36 flex flex-col items-center gap-5">
         <h2 className="font-general text-sm uppercase md:text-[10px]">
-          Welcome to zentry
+          Welcome to Nova Nexus
         </h2>
 
         <AnimatedTitle
-          title="Disc<b>o</b>ver the world's l<b>a</b>rgest shared adventure"
+          title="Expl<b>o</b>re the c<b>o</b>de behind the adventure"
           containerClassName=""
         />
 
         <div className="about-subtext">
-          <p>The Game of Games Begins-your life, now an epic, MMORPG</p>
-          <p>Zentry unites every player from countless games and platforms</p>
+          <p>
+            Where gaming meets creativity — building digital experiences that
+            inspire play.
+          </p>
+          <p>From pixels to programs, every idea starts with code.</p>
         </div>
       </div>
 

@@ -77,7 +77,7 @@ const BentoCard = ({
 
 const Features = () => {
   return (
-    <section id="nexus" className="bg-black pb-52">
+    <section id="showcase" className="bg-black pb-52">
       <div className="container mx-auto px-3 md:px-10">
         <div className="px-5 py-32">
           <p className="font-circular-web text-lg text-blue-50">
@@ -93,9 +93,9 @@ const Features = () => {
         <div className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
           <BentoCard
             src="/videos/feature-1.mp4"
-            description="A cross-platform metagame app, turining your activities across Web2 and Wbe3 games into rewarding adventures."
+            description="A modular engine for interactive worlds and dynamic apps."
           >
-            radia<b>n</b>t
+            Engine<b>X</b>
           </BentoCard>
         </div>
 
@@ -103,32 +103,32 @@ const Features = () => {
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
             <BentoCard
               src="/videos/feature-2.mp4"
-              description="Discover new games and experiences tailored to your interests and playstyle."
+              description="A framework for crafting responsive, motion-rich web experiences."
             >
-              Zig<b>m</b>a
+              Fr<b>a</b>meCode
             </BentoCard>
           </BentoTilt>
           <BentoTilt className="bento-tilt_1 row-span-1 ms-32 md:col-span-1 md:ms-0">
             <BentoCard
               src="/videos/feature-3.mp4"
-              description="Connect with friends and share your gaming experiences across platforms."
+              description="A collaboration space for gamers and coders alike."
             >
-              N<b>e</b>xus
+              Dev<b>H</b>ub
             </BentoCard>
           </BentoTilt>
           <BentoTilt className="bento-tilt_1 me-14 md:col-span-1 md:me-0">
             <BentoCard
               src="/videos/feature-4.mp4"
-              description="Track your progress and achievements across all your games in one place."
+              description="A neural playground where AI meets creative coding."
             >
-              Az<b>u</b>l
+              Ne<b>u</b>ron
             </BentoCard>
           </BentoTilt>
 
           <BentoTilt className="bento-tilt_2">
             <div className="flex size-full flex-col justify-between bg-violet-300 p-5">
               <h1 className="bento-title special-font max-w-64">
-                M<b>o</b>re Co<b>m</b>ing So<b>o</b>n
+                <b>N</b>ext Cha<b>p</b>ter L<b>o</b>ading...
               </h1>
               <TiLocationArrow className="m-5 scale-2000 self-end" />
             </div>

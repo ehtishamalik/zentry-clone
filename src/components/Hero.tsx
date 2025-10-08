@@ -5,6 +5,7 @@ import { useEffect, useRef, useState } from "react";
 import { TiLocationArrow } from "react-icons/ti";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
+import { openPortfolio } from "../utils";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -135,29 +136,30 @@ const Hero = () => {
         </div>
 
         <h1 className="special-font hero-heading absolute bottom-5 right-5 z-40 text-blue-75">
-          G <b>a</b> ming
+          F<b>u</b>ture
         </h1>
 
         <div className="absolute mt-2 top-0 left-0 z-40 size-full">
           <div className="mt-24 px-5 sm:px-10">
             <h1 className="special-font hero-heading text-blue-100">
-              Redefi <b>n</b> e
+              Buil<b>d</b> t<b>h</b>e
             </h1>
             <p className="mb-5 max-w-64 font-robert-regular text-blue-100">
               {" "}
-              Enter the Metagame layer <br /> Unleash the Play Economy
+              Craft immersive worlds. Code that powers play.
             </p>
             <Button
               id="watch-trailer"
-              title="Watch Trailer"
+              title="View My Work"
               leftIcon={<TiLocationArrow />}
               containerClassName="bg-yellow-300 flex-center gap-1"
+              onClick={openPortfolio}
             />
           </div>
         </div>
       </div>
       <h1 className="special-font hero-heading absolute bottom-5 right-5 text-black">
-        G <b>a</b> ming
+        F<b>u</b>ture
       </h1>
     </section>
   );

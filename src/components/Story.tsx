@@ -1,8 +1,10 @@
-import { useRef, type MouseEventHandler } from "react";
 import AnimatedTitle from "./AnimatedTitle";
 import gsap from "gsap";
 import RoundedCorners from "./RoundedCorners";
 import Button from "./Button";
+
+import { openPortfolio } from "../utils";
+import { useRef, type MouseEventHandler } from "react";
 
 const Story = () => {
   const frameRef = useRef<HTMLImageElement | null>(null);
@@ -46,17 +48,17 @@ const Story = () => {
   };
   return (
     <section
-      id="vault"
+      id="projects"
       className="min-h-dvh w-screen bg-black text-blue-50 overflow-hidden"
     >
       <div className="flex size-full flex-col items-center py-10 pb-24">
         <p className="font-general text-sm uppercase md:text-xs">
-          The multi-dimensional gaming experience
+          The story of a hidden realm
         </p>
 
         <div className="relative size-full">
           <AnimatedTitle
-            title="The st<b>o</b>ry of <br /> a hidden real<b>m</b>"
+            title="The St<b>o</b>ry Behind the C<b>o</b>de"
             containerClassName="mt-5 pointer-events-none mix-blend-difference relative z-10"
           />
 
@@ -82,13 +84,15 @@ const Story = () => {
         <div className="-mt-80 flex w-full justify-center md:-mt-64 md:me-44 md:justify-end">
           <div className="flex h-full w-fit flex-col items-center md:items-start">
             <p className="mt-3 max-w-sm text-center font-circular-web text-violet-50 mb-5 md:text-start">
-              Where realms converge, lies zentry and the boundless pillar.
-              Discover it's secrets and unlock the mysteries within.
+              From experimenting with game mods to building full-stack
+              platforms, every project is a quest for better design and cleaner
+              code.
             </p>
             <Button
               id="realm-button"
-              title="Discover prologue"
+              title="Explore My Journey"
               className="mt-5"
+              onClick={openPortfolio}
             />
           </div>
         </div>
