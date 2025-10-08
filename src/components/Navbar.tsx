@@ -90,7 +90,7 @@ const Navbar = () => {
             </div>
 
             <button
-              className="relative ml-10 w-20 p-2 border border-blue-50 rounded-full flex items-center cursor-pointer"
+              className="relative ml-10 w-20 p-2 border border-blue-50 rounded-full flex items-center cursor-pointer transition-transform hover:scale-105 active:scale-95"
               title={isAudioPlaying ? "Pause Audio" : "Play Audio"}
               onClick={toggleAudioIndicator}
             >
